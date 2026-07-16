@@ -1,0 +1,80 @@
+﻿Folder PATH listing for volume New Volume
+Volume serial number is 000000D6 0CC4:8075
+D:\MTECH\PERFORMANCE_ANOMALY_DETECTION
+|   main.py
+|   requirements.txt
+|   Semester4_TreeStructure.txt
+|   
++---dashboard
+|       streamlit_app.py
+|       
++---data
+|   +---hdfs
+|   |       anomaly_label.csv
+|   |       Event_occurrence_matrix.csv
+|   |       Event_traces.csv
+|   |       HDFS.log_templates.csv
+|   |       
+|   +---NAB
+|   |   \---realAWSCloudwatch
+|   |           ec2_cpu_utilization_5f5533.csv
+|   |           
+|   +---processed
+|   |       cleaned_dataset.csv
+|   |       feature_engineered_dataset.csv
+|   |       
+|   \---raw
+|           IT_SystemPerformanceAndResourceMetricsDataset.csv
+|           
++---models
+|       isolation_forest.pkl
+|       random_forest.pkl
+|       xgboost.pkl
+|       
++---notebooks
+|       EDA.ipynb
+|       Feature_Engineering.ipynb
+|       HDFS_Validation.ipynb
+|       Model_Training.ipynb
+|       NAB_Validation.ipynb
+|       
++---reports
+|   +---figures
+|   |       correlation_heatmap.png
+|   |       correlation_heatmap_feature_engineered.png
+|   |       feature_importance_rf.png
+|   |       hdfs_isolation_forest_confusion_matrix.png
+|   |       hdfs_label_distribution.png
+|   |       hdfs_lof_confusion_matrix.png
+|   |       isolation_forest_confusion_matrix.png
+|   |       lof_confusion_matrix.png
+|   |       nab_isolation_forest.png
+|   |       nab_lof.png
+|   |       nab_timeseries.png
+|   |       pca_visualization.png
+|   |       rf_confusion_matrix.png
+|   |       risk_distribution.png
+|   |       roc_curve_comparison.png
+|   |       status_correlation_heatmap.png
+|   |       zscore_confusion_matrix.png
+|   |       
+|   \---results
+|           anomaly_model_comparison.csv
+|           baseline_results.csv
+|           cross_dataset_comparison.csv
+|           hdfs_results.csv
+|           nab_results.csv
+|           risk_prediction_results.csv
+|           
++---src
+|   |   anomaly_detection.py
+|   |   data_preprocessing.py
+|   |   feature_engineering.py
+|   |   model_training.py
+|   |   risk_scoring.py
+|   |   visualization.py
+|   |   
+|   \---__pycache__
+|           data_preprocessing.cpython-314.pyc
+|           
+                    
