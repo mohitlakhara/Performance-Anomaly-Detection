@@ -1,3 +1,18 @@
+"""
+Feature Engineering Module
+
+This module provides reusable feature engineering functions for:
+1. IT System Metrics Dataset
+2. Resource Stress Indicators
+3. Derived Performance Features
+
+Author:
+BITS Pilani M.Tech Dissertation
+"""
+
+import pandas as pd
+import numpy as np
+
 # =====================================================
 # Validate Required Columns
 # =====================================================
@@ -185,7 +200,6 @@ def create_resource_stress_index(df):
         ]
     )
 
-    # Copy the exact weighted formula from your notebook here.
     # For example, if your notebook uses:
     #
     # 0.4 * CPU + 0.4 * Memory + 0.2 * Latency
