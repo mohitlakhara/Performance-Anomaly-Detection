@@ -83,7 +83,8 @@ def split_dataset(df):
 
     X = df[features]
 
-    y = df["risk_label"]
+    # y = df["risk_label"]
+    y = df["status"]
 
     X_train, X_test, y_train, y_test = train_test_split(
         X,
